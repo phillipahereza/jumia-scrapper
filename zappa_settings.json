@@ -1,0 +1,11 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "eu-west-1",
+        "profile_name": "kazi",
+        "project_name": "jumia-scraper-f",
+        "runtime": "python3.7",
+        "s3_bucket": "zappa-g58x74g46",
+        "timeout_seconds": 600
+    }
+}
