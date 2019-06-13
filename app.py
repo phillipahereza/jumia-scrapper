@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 from zappa.asynchronous import task
 
-from lib.scraper import start_scraping
+from scraper.scraper import start_scraping
 
 app = Flask(__name__)
 
